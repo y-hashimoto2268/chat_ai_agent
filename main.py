@@ -6,7 +6,7 @@ from langchain.agents import create_tool_calling_agent, AgentExecutor
 from langchain.memory import ConversationBufferWindowMemory
 from langchain_core.prompts import MessagesPlaceholder, ChatPromptTemplate
 from langchain_core.runnables import RunnableConfig
-from langchain_community.callbacks.streamlit import StreamlitCallbackHandler
+from langchain_community.callbacks.streamlit.streamlit_callback_handler import StreamlitCallbackHandler
 
 # models
 from langchain_openai import ChatOpenAI
